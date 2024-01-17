@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0,0,0,.15);
+    height: 63px;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo {
+    font-family: "shrikhand", cursive;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid .fa-location-dot {
+    color: black;
+}
+
+.cards {
+    display: grid;
+}

@@ -42,3 +42,11 @@ header {
 .btn {
 
 }
+
+.cards {
+    display: grid;
+}
+
+.contenair {
+    margin: auto;
+}
