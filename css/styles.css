@@ -136,4 +136,14 @@ li {
   list-style-type: none;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 /*# sourceMappingURL=styles.css.map */
