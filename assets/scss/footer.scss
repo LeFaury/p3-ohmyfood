@@ -2,8 +2,7 @@
     background-color:#353535 ;
     color: white;
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+    flex-direction: column;
 }
 
 .footer-title{
@@ -24,11 +23,7 @@ footer a{
 
 .footer ul{
     display: flex;
-}
-
-.footer li{
-    margin-bottom: 0.5em;
-    padding-left: 1em;
+    flex-direction: column;
 }
 
 .footer h3{
