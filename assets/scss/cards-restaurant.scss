@@ -1,11 +1,38 @@
-.restaurants {
+.restaurant {
     display: flex;
     flex-direction: column;
     margin-top: 5em;
 }
 
-.card-img {
+.card-img img{
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
+
+.cards {
+    border-radius: 2em;
+    box-shadow: 4px 4px 6px #aaa;
+    margin: 1em;
+    position: relative;
+    background: #ffffff;
+    height: 16em;
+}
+
+.card-text h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-subtitle p{
+    font-size: 17px ;
+    font-weight: 300;
+}
+
+.card-badge {
+    color: #008766;
+    background-color: rgba(153, 226, 208, 1);
+    border: 5px solid rgba(153, 226, 208, 1);
+    border-radius: 5px;
+}
+
