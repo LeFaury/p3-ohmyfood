@@ -1,3 +1,23 @@
+header {
+  display: grid;
+  place-items: center;
+  font-family: shrikhand;
+  font-size: 30px;
+}
+
+.location {
+  display: flex;
+  align-items: baseline;
+  background-color: #eaeaea;
+  color: #353535;
+  justify-content: center;
+  line-height: 4em;
+  white-space: nowrap;
+}
+.location .fa-solid {
+  padding-right: 1em;
+}
+
 .footer {
   background-color: #353535;
   color: white;
