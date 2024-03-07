@@ -1,3 +1,7 @@
+footer {
+
+}
+
 .footer{
     background-color:#353535 ;
     color: white;
@@ -8,12 +12,20 @@
 .footer-title{
     font-family: 'Shrikhand', cursive;
     font-size: 18px;
+
+        h2 {
+            font-size: 20px;
+        }
 }
 
 .footer-logo{
     display: flex;
     align-items: baseline;
     gap: 0.5em;
+
+        .fa-solid {
+            color: white;
+        }
 }
 
 footer a{
@@ -21,9 +33,10 @@ footer a{
 }
 
 .footer ul{
-    display: flex;
-    flex-direction: column;
-    margin-left: -28px;
+    margin-left: -30px;
+    margin-bottom: 0px;
+    margin-top: -30px;
+    line-height: 14px;
 }
 
 .footer h3{

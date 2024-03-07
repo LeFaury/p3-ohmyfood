@@ -8,7 +8,7 @@
 
     h2 {
         padding: 20px;
-        font-size: 24px;
+        font-size: 26px;
     }
 
     .nav {
@@ -17,7 +17,11 @@
     }
 
     .contenair {
-        margin-left: -15px;
+        margin: auto;
+        max-width: 1440px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
     }
 
     .nav-btn {
@@ -39,8 +43,12 @@
                 }
 
                 .fa-solid {
-                    margin-left: 50px;
-                    margin-right: 40px;
+                    margin-left: 30px;
+                    margin-right: 20px;
+                }
+                
+                .fa-store {
+                    color: #9356DC;
                 }
 
                 span {
@@ -61,4 +69,5 @@
         color: grey;
         margin-left: 1em;
         margin-right: 1em;
+        font-size: 20px;
     }
